@@ -1,4 +1,4 @@
-### A list of various shell script
+### A list of various shell scripts showcasing Basic Shell commands
 
 ##Learning Objectives
 
