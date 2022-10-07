@@ -1,12 +1,16 @@
+
 ### A list of various shell scripts showcasing Basic Shell commands
 
-##Learning Objectives
+### Shell basics in Scripts
+
+
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 
 
-##General
+## General
 
 What does RTFM mean?
 
@@ -22,7 +26,7 @@ What is the shell prompt
 
 How to use the history (the basics)
 
-##Navigation
+## Navigation
 
 What do the commands or built-ins cd, pwd, ls do
 
@@ -42,7 +46,7 @@ What are the characteristics of hidden files and how to list them
 
 What does the command cd - do
 
-##Looking Around
+## Looking Around
 
 What do the commands ls, less, file do
 
@@ -50,7 +54,7 @@ How do you use options and arguments with commands
 
 Understand the ls long format and how to display it
 
-##A Guided Tour
+## A Guided Tour
 
 What does the ln command do
 
@@ -62,7 +66,7 @@ What is a hard link
 
 What is the difference between a hard link and a symbolic link
 
-Manipulating Files
+## Manipulating Files
 
 What do the commands cp, mv, rm, mkdir do
 
@@ -80,7 +84,7 @@ What is an alias
 
 When do you use the command help instead of man
 
-##Reading Man Pages
+## Reading Man Pages
 
 How to read a man page
 
@@ -92,11 +96,11 @@ Keyboard Shortcuts for Bash
 
 Common shortcuts for Bash
 
-##LTS
+## LTS
 
 What does LTS mean?
 
-Copyright - Plagiarism
+## Copyright - Plagiarism
 
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 
@@ -104,4 +108,7 @@ You will not be able to meet the objectives of this or any following project by 
 
 You are not allowed to publish any content of this project.
 
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+Any form of plagiarism is strictly forbidden and will result in removal from the program
+
+
+### Happy coding <3
