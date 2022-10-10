@@ -1,6 +1,6 @@
-### DevOps, Shell, and Bash
+### System engineering & DevOps
 
-
-## 0x00. Shell, basics
-## 0x01. Shell, permissions
+## 1. System engineering & DevOps - Bash
+### 0x00. Shell, basics
+### 0x01. Shell, permissions
 
