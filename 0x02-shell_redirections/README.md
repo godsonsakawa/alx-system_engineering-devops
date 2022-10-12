@@ -1,37 +1,11 @@
 
 ## Shell, I/O Redirection
 
-Special Characters
+cc: Special Characters
 
-man or help:
+cc: man or help:
 
 
-
-echo
-
-cat
-
-head
-
-tail
-
-find
-
-wc
-
-sort
-
-uniq
-
-grep
-
-tr
-
-rev
-
-cut
-
-passwd (5) (i.e. man 5 passwd)
 
 ## Learning Objectives
 
