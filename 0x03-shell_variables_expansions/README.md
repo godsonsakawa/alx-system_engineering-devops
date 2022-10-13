@@ -97,7 +97,7 @@ You are not allowed to use bc, sed or awk
 
 All your files must be executable
 
-## More Info
+#### More Info
 
 >Read your /etc/profile, /etc/inputrc and ~/.bashrc files.
 
