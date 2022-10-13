@@ -32,7 +32,7 @@ What are special characters
 
 Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
 
-### Other Man Pages
+## Other Man Pages
 
 How to display a line of text
 
@@ -47,9 +47,9 @@ What is the /etc/passwd file and what is its format
 What is the /etc/shadow file and what is its format
 
 
-### Requirements
+## Requirements
 
-### General
+## General
 
 Allowed editors: vi, vim, emacs
 
