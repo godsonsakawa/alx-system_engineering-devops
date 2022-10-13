@@ -1,3 +1,4 @@
+### 0x02-shell_redirections
 
 ## Shell, I/O Redirection
 
@@ -72,6 +73,4 @@ You are not allowed to use sed or awk
 
 >Read your /etc/passwd and /etc/shadow files.
 
-
-
-Note: You do not have to learn about fmt, pr, du, gzip, tar, lpr, sed and awk yet.
+>Note: You do not have to learn about fmt, pr, du, gzip, tar, lpr, sed and awk yet.
