@@ -34,18 +34,18 @@ creating links, and using keyboard shortcuts in Bash.
     * User and group ID's displayed numerically.
 
 * **6. Welcome**
-  * [6-firstdirectory](./6-firstdirectory): Bash script that creates a directory named `holberton`
+  * [6-firstdirectory](./6-firstdirectory): Bash script that creates a directory named `my_first_directory`
   in the `/tmp/` directory.
 
 * **7. Betty**
   * [7-movethatfile](./7-movethatfile): Bash script that moves the file `betty` from `/tmp/` to
-  `/tmp/holberton`.
+  `/tmp/my_first_directory`.
 
 * **8. Bye bye Betty**
-  * [8-firstdelete](./8-firstdelete): Bash script that deletes the file `betty` in `/tmp/holberton`.
+  * [8-firstdelete](./8-firstdelete): Bash script that deletes the file `betty` in `/tmp/my_first_directory`.
 
 * **9. Bye bye My first directory**
-  * [9-firstdirdeletion](./9-firstdirdeletion): Bash script that deletes the directory `holberton`
+  * [9-firstdirdeletion](./9-firstdirdeletion): Bash script that deletes the directory `my_first_directory`
   in the `/tmp` directory.
 
 * **10. Back to the future**
@@ -78,7 +78,7 @@ creating links, and using keyboard shortcuts in Bash.
 
 * **17. Tree**
   * [17-tree](./17-tree): Bash script that creates the directories `welcome/`,
-  `welcome/to/` and `welcome/to/holberton` in the current directory.
+  `welcome/to/` and `welcome/to/school` in the current directory.
 
 * **18. Life is a series of commas, not periods**
   * [18-commas](./18-commas): Bash script that lists all files and directories of the current
