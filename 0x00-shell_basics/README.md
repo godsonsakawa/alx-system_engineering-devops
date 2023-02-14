@@ -1,114 +1,93 @@
+# Shell, basics
 
-### A list of various shell scripts showcasing Basic Shell commands
+In this project I learned how to navigate directories using `cd`, `pwd`, `ls`, how to look
+around using `ls`, `less`, and `file`, and how to manipulate files with `cp`,
+`mv`, `rm`, and `mkdir`. Further, I practiced working with the `type`, `which`,
+`help`, and `man` commands, implementing wildcards, reading man pages,
+creating links, and using keyboard shortcuts in Bash.
 
-### Shell basics in Scripts
+## Tasks :page_with_curl:
 
+* **0. Where am I?**
+  * [0-current_working_directory](./0-current_working_directory): Bash script that
+  prints the absolute pathname of the current working directory.
 
-## Learning Objectives
+* **1. What’s in there?**
+  * [1-listit](./1-listit): Bash script that displays the contents list of current directory.
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+* **2. There is no place like home**
+  * [2-bring_me_home](./2-bring_me_home): Bash script that changes the working directory to the
+  user's home directory.
 
+* **3. The long format**
+  * [3-listfiles](./3-listfiles): Bash script that displays current directory contents in
+  long format.
 
+* **4. Hidden files**
+  * [4-listmorefiles](./4-listmorefiles): Bash script that displays current directory contents,
+  including hidden files, using long format.
 
-## General
+* **5. I love numbers**
+  * [5-listfilesdigitonly](./5-listfilesdigitonly): Bash script that displays current directory
+  contents, including hidden files, as follows:
+    * Long format.
+    * User and group ID's displayed numerically.
 
-What does RTFM mean?
+* **6. Welcome holberton**
+  * [6-firstdirectory](./6-firstdirectory): Bash script that creates a directory named `holberton`
+  in the `/tmp/` directory.
 
-What is a Shebang
+* **7. Betty in Holberton**
+  * [7-movethatfile](./7-movethatfile): Bash script that moves the file `betty` from `/tmp/` to
+  `/tmp/holberton`.
 
-What is the Shell
+* **8. Bye bye Betty**
+  * [8-firstdelete](./8-firstdelete): Bash script that deletes the file `betty` in `/tmp/holberton`.
 
-What is the shell
+* **9. Bye bye Holberton**
+  * [9-firstdirdeletion](./9-firstdirdeletion): Bash script that deletes the directory `holberton`
+  in the `/tmp` directory.
 
-What is the difference between a terminal and a shell
+* **10. Back to the future**
+  * [10-back](./10-back): Bash script that changes the working directory to the previous one.
 
-What is the shell prompt
+* **11. Lists**
+  * [11-lists](./11-lists): Bash script that lists all files, including hidden files, in the
+  current directory, parent of the working directory, and `/boot` directory, using long format.
 
-How to use the history (the basics)
+* **12. File type**
+  * [12-file_type](./12-file_type): Bash script that prints the type of the file named
+  `iamafile` located in the `/tmp` directory.
 
-## Navigation
+* **13. We are symbols, and inhabit symbols**
+  * [13-symbolic_link](./13-symbolic_link): Bash script that creates a symbolic link to `/bin/ls`,
+  named `__ls__`.
 
-What do the commands or built-ins cd, pwd, ls do
+* **14. Copy HTML files**
+  * [14-copy_html](./14-copy_html): Bash script that copies all HTML files from the current
+  working directory to the parent of the working directory, but only those that
+  did not exist in the parent directory or were newer than the versions in the parent working directory.
 
-How to navigate the filesystem
+* **15. Let’s move**
+  * [15-lets_move](./15-lets_move): Bash script that moves all files beginning with an uppercase
+  letter to the directory `/tmp/u`.
 
-What are the . and .. directories
+* **16. Clean Emacs**
+  * [16-clean_emacs](./16-clean_emacs): Bash script that deletes all files in the current working
+  directory that end with the character `~`.
 
-What is the working directory, how to print it and how to change it
+* **17. Tree**
+  * [17-tree](./17-tree): Bash script that creates the directories `welcome/`,
+  `welcome/to/` and `welcome/to/holberton` in the current directory.
 
-What is the root directory
+* **18. Life is a series of commas, not periods**
+  * [18-commas](./18-commas): Bash script that lists all files and directories of the current
+  directory, including hidden ones, as follows:
+    * Separated by commas (`,`).
+    * Directory names end with a slash (`/`).
+    * Alpha-ordered, except for the directories `.` and `..` which are listed at the beginning.
+    * Only digits and letters are used to sort - digits come first.
 
-What is the home directory, and how to go there
-
-What is the difference between the root directory and the home directory of the user root
-
-What are the characteristics of hidden files and how to list them
-
-What does the command cd - do
-
-## Looking Around
-
-What do the commands ls, less, file do
-
-How do you use options and arguments with commands
-
-Understand the ls long format and how to display it
-
-## A Guided Tour
-
-What does the ln command do
-
-What do you find in the most common/important directories
-
-What is a symbolic link
-
-What is a hard link
-
-What is the difference between a hard link and a symbolic link
-
-## Manipulating Files
-
-What do the commands cp, mv, rm, mkdir do
-
-What are wildcards and how do they work
-
-How to use wildcards
-
-Working with Commands
-
-What do type, which, help, man commands do
-
-What are the different kinds of commands
-
-What is an alias
-
-When do you use the command help instead of man
-
-## Reading Man Pages
-
-How to read a man page
-
-What are man page sections
-
-What are the section numbers for User commands, System calls and Library functions
-
-Keyboard Shortcuts for Bash
-
-Common shortcuts for Bash
-
-## LTS
-
-What does LTS mean?
-
-#### Copyright - Plagiarism
-
->You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-
->You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-
->You are not allowed to publish any content of this project.
-
->Any form of plagiarism is strictly forbidden and will result in removal from the program
-
-
-### Happy coding <3
+* **19. File type: School**
+  * [school.mgc](./school.mgc): A magic file that can be used with the command `file` to
+  detect `School` data files.
