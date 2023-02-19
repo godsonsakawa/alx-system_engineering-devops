@@ -1,71 +1,83 @@
-## 0x01. Shell, permissions
+# Shell, permissions
 
+In this project, I learned about using the `chmod`, `sudo`, `su`, `chown`, and
+`chgrp` commands to represent and change Linux file permissions and change users
+in the Shell.
 
+## Tasks :page_with_curl:
 
-## Learning Objectives
+* **0. My name is Betty**
+  * [0-iam_betty](./0-iam_betty): Bash script that changes the user ID to `betty`.
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+* **1. Who am I**
+  * [1-who_am_i](./1-who_am_i): Bash script that prints the effective userid of the
+  current user.
 
+* **2. Groups**
+  * [2-groups](./2-groups): Bash script that prints all the groups the
+  current user is a part of.
 
+* **3. New owner**
+  * [3-new_owner](./3-new_owner): Bash script that changes the owner of the
+  file `hello` to the user `betty`.
 
-## Permissions
+* **4. Empty!**
+  * [4-empty](./4-empty): Bash script that creates an empty file called `hello`.
 
-What do the commands chmod, sudo, su, chown, chgrp do
+* **5. Execute**
+  * [5-execute](./5-execute): Bash script that adds execute permissions to the owner
+  of the file `hello`.
 
-Linux file permissions
+* **6. Multiple permissions**
+  * [6-multiple_permissions](./6-multiple_permissions): Bash script that adds
+  execute permission to the owner and the group owner, and read permission to
+  other users, for the file `hello`.
 
-How to represent each of the three sets of permissions (owner, group, and other) as a single digit
+* **7. Everybody!**
+  * [7-everybody](./7-everybody): Bash script that adds execution permission to the owner,
+  the group owner and the other users, for the file `hello`.
 
-How to change permissions, owner and group of a file
+* **8. James Bond**
+  * [8-James_Bond](./8-James_Bond): Bash script that sets the permission for the file
+  `hello` as follows:
+    * Owner - no permission at all
+    * Group - no permission at all
+    * Other users - all permissoins
 
-Why can’t a normal user chown a file
+* **9. John Doe**
+  * [9-John_Doe](./9-John_Doe): Bash script that sets the mode of the file
+  `hello` to -rwxr-x-wx.
 
-How to run a command with root privileges
+* **10. Look in the mirror**
+  * [10-mirror_permissions](./10-mirror_permissions): Bash script that sets the mode
+  of the file `hello` the same as the file `olleh`.
 
-How to change user ID or become superuser
+* **11. Directories**
+  * [11-directories_permissions](./11-directories_permissions): Bash script that adds execute
+  permission to all subdirectories of the current directory for the owner, the group owner
+  and all other users. Regular files ahould not be changed.
 
-## Other Man Pages
+* **12. More directories**
+  * [12-directory_permissions](./12-directory_permissions): Bash script that creates a
+  directory `my_dir` with permissions 751 in the working directory.
 
-How to create a user
+* **13. Change group**
+  * [13-change_group](./13-change_group): Bash script that changes the group owner to
+  `school` for the file `hello`.
 
-How to create a group
+* **14. Owner and group**
+  * [14-change_owner_and_group](./14-change_owner_and_group): Bash script that changes the
+  owner to `vincent` and the group owner to `staff` for all the files and directories
+  in the working directory.
 
-How to print real and effective user and group IDs
+* **15. Symbolic links**
+  * [15-symbolic_link_permissions](./15-symbolic_link_permissions): Bash script that changes
+  the owner and the group owner of the file `_hello` to `vincent` and `staff`, respectively.
 
-How to print the groups a user is in
+* **16. If only**
+  * [16-if_only](./16-if_only): Bash script that changes the owner of the file `hello`
+  to `betty` only if it is owned by the user `guillaume`.
 
-How to print the effective userid
-
-#### Copyright - Plagiarism
-
->You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-
->You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-
->You are not allowed to publish any content of this project.
-
->Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
-
-## Requirements
-
-General
-
-Allowed editors: vi, vim, emacs
-
-All your scripts will be tested on Ubuntu 20.04 LTS
-
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-
-All your files should end with a new line (why?)
-
-The first line of all your files should be exactly #!/bin/bash
-
-A README.md file, at the root of the folder of the project, describing what each script is doing
-
-You are not allowed to use backticks, &&, || or ;
-
-All your files must be executable
-
-
-## Happy Coding <3
+* **17. Star Wars**
+  * [100-Star_Wars](./100-Star_Wars): Bash script that plays Star Wars Episode IV
+  in the terminal.
