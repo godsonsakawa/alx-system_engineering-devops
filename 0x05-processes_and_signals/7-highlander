@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A script that displays To Infinity and beyond
+# With a sleep 2 delay between each iteration
+# I am invincible!!! when receiving a SIGTERM signal
+
+display_message(){
+echo "I am invincible!!!"
+}
+
+trap display_message SIGTERM
+
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+done
+
