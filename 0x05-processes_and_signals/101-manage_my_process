@@ -20,17 +20,17 @@
 #  if no argument is passed
 #  Displays Usage: manage_my_process {start|stop|restart}
 
-if [ "$1" == "start" ]; then
+if [ "${1}" == "start" ]; then
 	./manage_my_process &
 	echo "$$" > /var/run/my_process.pid
 	echo "manage_my_process started"
 
-elif [ "$1" == "stop" ]; then
+elif [ "${1}" == "stop" ]; then
 	kill "$(cat /var/run/my_process.pid)"
 	rm /var/run/my_process.pid
 	echo "manage_my_process stopped"
 
-elif [ "$1" == "restart" ]; then
+elif [ "${1}" == "restart" ]; then
 	kill "$(cat /var/run/my_process.pid)"
 	rm /var/run/my_process.pid
 	./manage_my_process &
