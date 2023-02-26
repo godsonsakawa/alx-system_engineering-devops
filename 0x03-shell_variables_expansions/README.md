@@ -1,108 +1,81 @@
-### 0x03. Shell, init files, variables and expansions
+# Shell, init files, variables and expansions
 
-#### man or help:
->printenv
->set
->unset
->export
->alias
->unalias
->.
->source
->printf
+In this project, I learned about initialization files, local, global, and
+reserved variables, and special parameters in the Shell. Further, I practiced
+using expansions, performing arithmetic operations, and utilizing aliases.
 
-## Learning Objectives
+## Tasks :page_with_curl:
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+* **0. <o>**
+  * [0-alias](./0-alias): Bash script that creates an alias named `ls` with value `rm *`.
 
+* **1. Hello you**
+  * [1-hello_you](./1-hello_you): Bash script that prints `hello user`, where user is the
+  current Linux user.
 
+* **2. The path to success is to take massive, determined action**
+  * [2-path](./2-path): Bash script that adds `/action` to the `PATH`.
 
-## General
+* **3. If the path be beautiful, let us not ask where it leads**
+  * [3-paths](./3-paths): Bash script that counts the number of directories in the `PATH`.
 
-What happens when you type $ ls -l *.txt
+* **4. Global variables**
+  * [4-global_variables](./4-global_variables): Bash script that lists environment variables.
 
-Shell Initialization Files
+* **5. Local variable**
+  * [5-local_variables](./5-local_variables): Bash script that lists all local variables,
+  environment variables and functions.
 
-What are the /etc/profile file and the /etc/profile.d directory
+* **6. Local variable**
+  * [6-create_local_variable](./6-create_local_variable): Bash script that creates
+  a new local variable named `BEST` with value `School`.
 
-What is the ~/.bashrc file
+* **7. Global variable**
+  * [7-create_global_variable](./7-create_global_variable): Bash script that
+  creates a new global variable named `BEST` with value `School`.
 
-## Variables
+* **8. Every addition to true knowledge is an addition to human power**
+  * [8-true_knowledge](./8-true_knowledge): Bash script that prints the result of the
+  addition of 128 with the value stored in the environment variable
+  `TRUEKNOWLEDGE`, followed by a new line.
 
-What is the difference between a local and a global variable
+* **9. Divide and rule**
+  * [9-divide_and_rule](./9-divide_and_rule): Bash script that prints the result
+  of `POWER` divided by `DIVIDE`. `POWER` and `DIVIDE` are environment variables.
 
-What is a reserved variable
+* **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
+  * [10-love_exponent_breath](./10-love_exponent_breath): Bash script that displays the
+  result of `BREATH` to the power of `LOVE`. `BREATH` and `LOVE` are environment variables.
 
-How to create, update and delete shell variables
+* **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
+  * [11-binary_to_decimal](./11-binary_to_decimal): Bash script that converts a number
+  in base 2 stored in the environment variable `BINARY` to base 10.
 
-What are the roles of the following reserved variables: HOME, PATH, PS1
+* **12. Combination**
+  * [12-combinations](./12-combinations): Bash script that prints all possible combinations
+  of two letters, except `oo`, as follows:
+    * Letters are lower cases, from `a` to `z`.
+    * One combination per line.
+    * Alpha-ordered.
 
-What are special parameters
+* **13. Floats**
+  * [13-print_float](./13-print_float): Bash script that prints a number stored in the
+  environment variable `NUM` with two decimal places.
 
-What is the special parameter $??
+* **14. Decimal to Hexadecimal**
+  * [14-decimal_to_hexadecimal](./14-decimal_to_hexadecimal): Bash script
+  that converts a number in base 10 stored in the environment variable `DECIMAL` to base 16.
 
-## Expansions
+* **15. Everyone is a proponent of strong encryption**
+  * [100-rot13](./100-rot13): Bash script that encodes and decodes text using the rot13
+  encryption.
 
-What is expansion and how to use them
+* **16. The eggs of the brood need to be an odd number**
+  * [101-odd](./101-odd): Bash script that prints every other line from the input,
+  starting with the first line.
 
-What is the difference between single and double quotes and how to use them properly
-
-How to do command substitution with $() and backticks
-
-## Shell Arithmetic
-
-How to perform arithmetic operations with the shell
-
-The alias Command
-
-How to create an alias
-
-How to list aliases
-
-How to temporarily disable an alias
-
-Other help pages
-
-How to execute commands from a file in the current shell
-
-## Copyright - Plagiarism
-
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-
-You are not allowed to publish any content of this project.
-
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
-## Requirements
-
-## General
-
-Allowed editors: vi, vim, emacs
-
-All your scripts will be tested on Ubuntu 20.04 LTS
-
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-
-All your files should end with a new line (why?)
-
-The first line of all your files should be exactly #!/bin/bash
-
-A README.md file, at the root of the folder of the project, describing what each script is doing
-
-You are not allowed to use &&, || or ;
-
-You are not allowed to use bc, sed or awk
-
-All your files must be executable
-
-#### More Info
-
->Read your /etc/profile, /etc/inputrc and ~/.bashrc files.
-
->Look at some files in the /etc/profile.d directory.
-
-
-
-Note: You do not have to learn about awk, tar, bzip2, date, scp, ulimit, umask, or shell scripting, yet.
+* **17. I'm an instant star. Just add water and stir.**
+  * [102-water_and_stir](./102-water_and_stir): Bash script that adds the two numbers
+  stored in the environment variables `WATER` and `STIR` and prints the result.
+  * `WATER` is in base `water`, `STIR` is in base `stir`, and the result is
+  in base `bestchol`.
