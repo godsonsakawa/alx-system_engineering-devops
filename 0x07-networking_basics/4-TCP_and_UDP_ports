@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script that displays litening ports
+#  1. That only show litsening sockets.
+#  2. That show the PID and the name of the program to which each socket
+#  belongs
+
+netstat -lp
