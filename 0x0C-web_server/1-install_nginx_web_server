@@ -4,18 +4,21 @@
 #+    Returns a page containing "Hello World!" when queried
 #++    at the root with a curl GET request.
 
+# install nginx
 apt-get update
 apt-get install -y nginx
 
-mkdir /etc/nginx/html
-touch /etc/nginx/html/index.html
-echo "Hello World!" > /etc/nginx/html/index.html
+# Create a file with "Hello World!" content in the default root directory
+echo "Hello World!" > /var/www/html/index.html
+
+# Configure nginx to litsen to port 80
 printf %s "server {
      listen      80 default_server;
      listen      [::]:80 default_server;
-     root        /etc/nginx/html;
-     index       index.html index.htm;
+     root        /var/www/html;
+     index       index.html;
 }
 " > /etc/nginx/sites-available/default
 
+# Restart nginx
 service nginx restart
