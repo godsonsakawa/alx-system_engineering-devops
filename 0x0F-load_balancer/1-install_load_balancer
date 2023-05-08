@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+# Update package and install HAProxy
+apt-get update
+apt-get install -y --no-install-recommends software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-2.6
+apt-get install -y haproxy=2.6.\*
+
+# Enable management via the init script
+echo "ENABLED=1" >> /etc/default/haproxy
+
+# Make a backup file for the original backup file
+cp /etc/haproxy/haproxy.cfg{,.bak}
+
+# Edit config file
+
+printf %s "
+frontend http_front
+    bind *:80
+    mode http
+    default_backend http_back
+
+backend http_back
+    mode http
+    balance roundrobin
+    server 47730-web-01 54.162.2.155:80 check
+    server 47730-web-02 34.205.65.75:80 check
+" >> /etc/haproxy/haproxy.cfg
+
+# restart haproxy
+service haproxy restart
