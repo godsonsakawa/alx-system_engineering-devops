@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Update package and install HAProxy
-apt-get update
 apt-get install -y --no-install-recommends software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-2.6
+apt-get update
 apt-get install -y haproxy=2.6.\*
 
 # Enable management via the init script
