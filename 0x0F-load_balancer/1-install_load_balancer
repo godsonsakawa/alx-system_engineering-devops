@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Install HAProxy version 2.6 with the following configurations
+#+  Enable managemenr via the init acript
+#+  Distributes requets using a rounr-robin algorithm
 
 # Update package and install HAProxy
 apt-get install -y --no-install-recommends software-properties-common
