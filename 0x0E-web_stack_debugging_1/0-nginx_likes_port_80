@@ -5,7 +5,7 @@
 pkill nginx
 
 # Change the config file to listen to port 80
-sed -i 's/listen 8080/listen 80/g' /etc/nginx/sites-enabled/default
+sed -i 's/listen 8080/listen 80/' /etc/nginx/sites-enabled/default
 
 # start nginx
 service nginx start
