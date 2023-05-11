@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Configure nginx to listen to port 80
 
 # stop nginx processes that are running
 if pgrep nginx;
