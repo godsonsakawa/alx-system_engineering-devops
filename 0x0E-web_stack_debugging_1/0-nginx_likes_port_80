@@ -8,5 +8,4 @@ pkill nginx
 sed -i 's/listen 8080/listen 80/' /etc/nginx/sites-enabled/default
 
 # start nginx
-service nginx start
-
+service nginx restart
