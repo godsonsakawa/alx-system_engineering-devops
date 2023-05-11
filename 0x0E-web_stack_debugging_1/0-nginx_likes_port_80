@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+
+# stop nginx processes that are running
+if pgrep nginx;
+then
+    pkill nginx
+fi
+
+# Change the config file to listen to port 80
+sed -i 's/listen 8080/listen 80/g' /etc/ngiinx/sites-enabled/default
+
+# start nginx
+service nginx start
