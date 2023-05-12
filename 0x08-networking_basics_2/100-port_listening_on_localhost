@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# A script that litsens on port 98 on localhost.
-nc -l 98
