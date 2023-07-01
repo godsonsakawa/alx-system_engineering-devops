@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script that stops the process from 7-highlander
+# Without using kill or killall commands
+#  Attempts to kill the 7-highlander process with a trap for SIGTERM signal
+
+pkill -f -15 7-highlander
+
